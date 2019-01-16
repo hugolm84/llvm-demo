@@ -1,0 +1,4 @@
+---
+Checks:          '-*,clang-diagnostic-*,clang-analyzer-*,-clang-analyzer-osx.*,-clang-analyzer-optin.*,google-*,modernize-*,'
+HeaderFilterRegex: 'commontypes.h mainthread.h tntcondition_variable.h tnthread.h tntmutex.h'
+...
