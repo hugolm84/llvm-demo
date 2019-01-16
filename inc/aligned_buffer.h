@@ -1,9 +1,7 @@
 #ifndef ALIGNED_BUFFER
 #define ALIGNED_BUFFER
 
-#include <stdint.h>
-#include <stdlib.h>
-
-bool Compare(size_t from, const void* buf_ptr, size_t length);
+#define NULL 0
+bool Compare(int from, const void* buf_ptr, int length);
 
 #endif
